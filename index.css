@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(217, 161, 57)
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(240, 243, 245);
+    border: none;
+}
+
+div {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.gridButton {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: lightgrey;
+}
